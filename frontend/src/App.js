@@ -17,7 +17,7 @@ function App() {
     axios.get('/api/values')
       .then(response => {
         console.log('response', response)
-        setLists(response.data)
+        setLists(response.data);
       })
   }, [])
 
